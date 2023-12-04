@@ -1,0 +1,69 @@
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 400px;
+    grid-template-rows: 80px 1fr 100px;
+    margin: 0;
+}
+.header{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    background-color: rgb(222, 222, 222);
+    text-align: center;
+    padding-top: 4vh;
+}
+.content {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+.side {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: rgb(197, 221, 172);
+    text-align: center;
+    padding-top: 5vh;
+}
+.footer {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    background-color: rgb(209, 207, 207);
+}
+.footer_2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    justify-content: space-around;
+}
+.boxglobal {
+    padding-top: 10px;
+    text-align: center;
+    flex-basis: 40%;
+}
+.box_first {
+    flex-basis: 30%;
+    background-color: beige;
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+.box_second {
+    flex-basis: 30%;
+    background-color: rgb(238, 188, 94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+.upbox1 {
+    display: flex;
+    flex-basis: 49%;
+    background-color: rgb(238, 188, 94);
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+}
